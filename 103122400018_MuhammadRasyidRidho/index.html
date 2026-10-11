@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#ceritificate">Ceritificate and Training</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#Register">Register</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <section id="profile">
+        <div class="profile">
+          <div class="profile-header">
+            <img src="me.jpeg" alt="My Photo" width="144" height="144" />
+            <div class="profile-info">
+              <h1>Muhammad Rasyid Ridho</h1>
+              <h4>Software Engineering Student</h4>
+            </div>
+          </div>
+
+          <p class="profile-description">
+            I'm student from Telkom University campus Purwokerto with a major in
+            Software Engineering. I’ve an interest and skills in the field of
+            UI/UX design. Tools for UI/UX Design are Figma, Adobe Photoshop, and
+            Adobe Illustrator.
+          </p>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <table>
+          <tr>
+            <th>Education</th>
+            <th>Major</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Telkom Malang Vocation High School</td>
+            <td>Software Engineering</td>
+            <td>2021-2024</td>
+          </tr>
+          <tr>
+            <td>Telkom University Purwokerto</td>
+            <td>Undergraduate Software Engineering</td>
+            <td>2024-Now</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="work-experience">
+        <h2>Work Experience</h2>
+        <table>
+          <tr>
+            <th>Position</th>
+            <th>Company</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>UI/UX Designer Intern</td>
+            <td>PT Sekawan Media Informatika</td>
+            <td>2023-2024</td>
+          </tr>
+          <tr>
+            <td>Freelance</td>
+            <td>Self Employed</td>
+            <td>2022-Now</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="ceritificate">
+        <h2>Ceritificate and Training</h2>
+        <table>
+          <tr>
+            <th>Certification</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>UKK React JS Competency Test</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>IT Specialist - HTML CSS by Certiport</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Junior Multimedia Development Telkom DigiUp</td>
+            <td>2022</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact">
+          <h2>Contact</h2>
+          <p>You can reach me at:</p>
+          <ul>
+            <li>Email: rasyid.rdh05@gmail.com</li>
+            <li>Phone: +62 821 4345 8812</li>
+          </ul>  
+        </div>
+        <div class="social-media">
+          <h3>Social Media</h3>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/rasyidrdh05/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/rasyidridho05/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/rasyidridho05" target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="Register">
+        <h2>Register</h2>
+        <form action="" method="post">
+          <label for="Nama">Name</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          /><br /><br />
+
+          <label for="Email">Email</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="Phone Number">Phone Number</label>
+          <input type="number" id="phone" name="phone" required /><br /><br />
+
+          <label for="Address">Address</label>
+          <textarea name="address" id="address"></textarea><br /><br />
+
+          <label for="Birthdate">Birthdate</label>
+          <input
+            type="date"
+            id="birthdate"
+            name="birthdate"
+            required
+          /><br /><br />
+
+          <label for="Gender">Gender</label> <br /><br />
+          <label for="gender">Male</label>
+          <input type="radio" id="gender" name="gender" value="Male" required />
+          <label for="gender">Female</label>
+          <input
+            type="radio"
+            id="gender"
+            name="gender"
+            value="Female"
+            required
+          /><br /><br />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
+
+          <input type="submit" value="Register" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
